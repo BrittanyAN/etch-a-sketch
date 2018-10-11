@@ -1,0 +1,37 @@
+#pad {
+    display: flex;
+    flex-wrap: wrap;
+    width: 192px;
+    height: auto;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.pixel {
+    width: 10px;
+    height: 10px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.black {
+    background-color: black;
+}
+
+#resetContainer {
+    margin: auto;
+    display: flex;
+    padding: 10px;
+}
+
+#reset {
+    margin: auto;
+}
+
+#title {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+}
